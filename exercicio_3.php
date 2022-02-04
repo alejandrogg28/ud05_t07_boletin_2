@@ -4,5 +4,5 @@
 header('Content-Type:text/html;charset=UTF-8');
 $pesetas= $_REQUEST["pesetas"];
 $euros= $pesetas / 166;
-echo "A cantidade indicada en euros é: ".$pesetas;
+echo "A cantidade indicada en euros é: ".$euros;
 ?>
